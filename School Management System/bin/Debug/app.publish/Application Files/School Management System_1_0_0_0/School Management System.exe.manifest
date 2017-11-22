@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="School Management System.exe" version="1.0.0.0" publicKeyToken="98f6d49db7fb1c75" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="School Management System" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="School Management System.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="MetroFramework.Design" version="1.2.0.3" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.dll" size="152576">
+      <assemblyIdentity name="MetroFramework" version="1.2.0.3" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>uvMm9S05FV1yJGWUf0zGfm6Qz9D4mVTquVlWjpvDQqo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.Fonts.dll" size="672256">
+      <assemblyIdentity name="MetroFramework.Fonts" version="1.2.0.3" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>6WAw/dr354QBVn7oJICtde5I01VhmaP4XA7Gae2sLvQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="348160">
+      <assemblyIdentity name="MySql.Data" version="6.1.6.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xDEbkuhLn52vs3FBhqA+w7+RlW0HavUL8rO0glSk4TQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="School Management System.exe" size="13972928">
+      <assemblyIdentity name="School Management System" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>PLbx818tWYzC4yVVdeGnaPqmqomfHUFnHAF+uig78fI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MetroFramework.txt" size="1266">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+yV6adEVlpUIOiH/IdsfqaixKo0MB7DiB/hBOyI4wKw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="School Management System.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Insignia\Silver" issuerKeyHash="934ea2237f885374b22e44ca89b9882756da7bdd" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>6trxbeVwsBBmmXXhSueKmNgx/j96k7i8HYeEvUjMi+Q=</DigestValue></Reference></SignedInfo><SignatureValue>s0DVeJBaj39Q6FN384iuxUuAHHXrYEjnmJr79YR/UZ/CsibW4RNg8Uf2vGrKTldak1mGCzsTaW7A35ozXqD0mZwIeA4mcT5dBgTLPikF3tKAjggarAA54wmBC/v1Vj+yU73ApMZMtse+RTBM5SNt538i0xgKSDJuxVzJw1tRZss=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>35ScJ8GR84RMhNY1cY/jhMjjO0S/BlFAcGVc6k2k+exdA8Vb1B0TMeIjzmf1HqeSSUiUA0CJo09At25zffZDE3oLv5Wdz3aUeoYL3ysOkwWWLQIuTCKt2bgEbUAEMBpHnnbf+FopHbBJVD9Bha8pGOodQdBNcMEeujshkGmGgR0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e48bcc48bd84871dbcb8937a3ffe31d8988ae74ae175996610b070e56df1daea" Description="" Url=""><as:assemblyIdentity name="School Management System.exe" version="1.0.0.0" publicKeyToken="98f6d49db7fb1c75" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Insignia\Silver</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>PAoEsnO1g+/LvjQpMe6U/wDmSkBNKV5F056NIEO9kXw=</DigestValue></Reference></SignedInfo><SignatureValue>qyJEYNrzRMj3cnzY7ksoa9zxglQOc66c/EGuTdeFFSSl6Pz+M8rrjQBAfJJ2BteQa4KL9kM5viClYnBhlKalTr4XxhrE9K/uGfTqzaC3YqDyA9NGNF2Q7d1qNLK8emn74kPA7cbc8oEnDvZa6xaV25OqVG73N2n98i/AFYIvzWc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>35ScJ8GR84RMhNY1cY/jhMjjO0S/BlFAcGVc6k2k+exdA8Vb1B0TMeIjzmf1HqeSSUiUA0CJo09At25zffZDE3oLv5Wdz3aUeoYL3ysOkwWWLQIuTCKt2bgEbUAEMBpHnnbf+FopHbBJVD9Bha8pGOodQdBNcMEeujshkGmGgR0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQWrIdkaPtOaFEce13o+n02jANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4ASQBuAHMAaQBnAG4AaQBhAFwAUwBpAGwAdgBlAHIwHhcNMTYxMjI3MTMxMzQxWhcNMTcxMjI3MTkxMzQxWjApMScwJQYDVQQDHh4ASQBuAHMAaQBnAG4AaQBhAFwAUwBpAGwAdgBlAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAN+UnCfBkfOETITWNXGP44TI4ztEvwZRQHBlXOpNpPnsXQPFW9QdEzHiI85n9R6nkklIlANAiaNPQLduc332QxN6C7+Vnc92lHqGC98rDpMFli0CLkwirdm4BG1ABDAaR5523/haKR2wSVQ/QYWvKRjqHUHQTXDBHro7IZBphoEdAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAUWNq51/Lr68drM5uGwqk/XwY7RPVE0C6nB4gTon5EMB/jut33Bis/zN7StmsoG+KHa4sConSlbVrFms3H/kyD17R2M6HzRghEcnCGqp8airDKtAer71oBwPVu0pqOBLMc72QenJfN6bkZ9ykZDprDye8ke1HFEZxk2vbL75TEb0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
